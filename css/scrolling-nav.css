@@ -8,6 +8,7 @@ body {
     width: 100%;
     height: 100%;
     padding-top: 100px;
+    font-family: rockwell;
 }
 
 html {
@@ -33,6 +34,12 @@ html {
 .navbar-default .navbar-nav>li>a {
   color: black;
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+
 .page-scroll {
   font-size: 20px;
 }
@@ -51,6 +58,10 @@ html {
 .social-media-icons {
   margin-top: 8px;
   float: right;
+}
+
+.social-media-icons i:hover {
+  transform: scale(1.3);
 }
 
 .fa {
