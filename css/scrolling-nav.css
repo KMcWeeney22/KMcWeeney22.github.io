@@ -1,0 +1,118 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+  background-color: #8BC3A3;
+  z-index: 1;
+}
+
+.navbar-links {
+  margin-top: 7px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: white;
+    border-radius: 10px;
+  }
+/*actual links */
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+.page-scroll {
+  font-size: 20px;
+}
+
+.navbar-brand{
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.portfolio-brand {
+  margin-right: 40px;
+  height: 70px;
+  width: 70px;
+}
+
+.social-media-icons {
+  margin-top: 8px;
+  float: right;
+}
+
+.fa {
+  color: #000;
+  padding: 2px;
+  margin-right: 25px;
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 5px;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+
+    .top-nav-collapse {
+        padding: 5px;
+    }
+}
+
+/* navbar style changes for logo with viewing on tablet or smaller */
+@media(max-width: 766px) {
+
+  .page-scroll li {
+    display: inline-block;
+  }
+
+  .navbar-toggle {
+    margin-top: 18px;
+  }
+
+  .navbar-links .page-scroll {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navbar-brand{
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+
+  .portfolio-brand {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .navbar-collapse.collapse.in {
+    position: realtive;
+  }
+
+  .social-media-icons {
+    position: absolute;
+    top: 70px;
+    right: 0;
+  }
+
+  .fa {
+    margin: 2px;
+  }
+}

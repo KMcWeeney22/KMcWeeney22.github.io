@@ -1,0 +1,166 @@
+@media(min-width: 767px){
+
+  .portfolio-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .portfolio-section h1 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid black;
+  }
+
+  #project-info {
+    text-align: right;
+  }
+
+  #project-info h2 {
+    text-align: right;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  #project-info p {
+    padding-bottom: 20px;
+  }
+
+  .focus-project {
+    height: 350px;
+    width: 700px;
+
+  }
+
+  /* sub projects displayed under focused project */
+
+  #sub-projects {
+    padding-top: 40px;
+    text-align: right;
+  }
+
+  #sub-projects div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #sub-projects img {
+    height: 200px;
+    width: 370px;
+  }
+
+
+}
+
+@media(max-width: 766px) {
+
+  .portfolio-section h1 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid black;
+  }
+
+  #project-info {
+    text-align: center;
+  }
+
+  #project-info h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  #project-info p {
+    padding-bottom: 20px;
+  }
+
+  #sub-projects div{
+    display: block;
+    margin: auto auto;
+    padding-bottom: 50px;
+  }
+
+  #sub-projects h3 {
+    text-align: center;
+  }
+
+  #main-project {
+    padding-bottom: 50px;
+  }
+
+  .portfolio-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+}
+
+/* main project button */
+.myButton {
+  text-align: center;
+  margin-right: 0;
+  margin-left: auto;
+  width:180px;
+  display: block;
+  height: auto;
+  padding:15px;
+  color:#fff;
+  background:#8BC3A3;
+  border:none;
+  border-radius:3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+.myButton:hover {
+  background:#111;
+  color: white;
+  border:none;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+  opacity: 0.9;
+}
+/* end button */
+
+/* sub project button */
+.sub-project-button {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 0;
+  margin-left: auto;
+  width:180px;
+  display: block;
+  height: auto;
+  padding:15px;
+  color:#fff;
+  background:#8BC3A3;
+  border:none;
+  border-radius:3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+.sub-project-button:hover {
+  background:#111;
+  color: white;
+  border:none;
+}
+.sub-project-button:active {
+  position:relative;
+  top:1px;
+  opacity: 0.9;
+}

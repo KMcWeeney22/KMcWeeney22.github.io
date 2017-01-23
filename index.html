@@ -1,7 +1,240 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head lang="en">
+		<meta charset="utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="discription" content="The Walking Dead TV Show web page">
+    <title>Kyle McWeeneys Web Development Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS for scrolling navbar-->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+		<!-- Other CSS files -->
+		<link href='css/about.css' rel='stylesheet'>
+		<link href='css/skills.css' rel='stylesheet'>
+		<link href='css/portfolio.css' rel='stylesheet'>
+		<link href='css/contact.css' rel='stylesheet'>
+
+		<!-- font awesome for social media icons -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                  <img class='portfolio-brand' src='images/portfolio-logo.png' alt='Portfolio Logo'>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-links nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+								<!-- social media links fixed right on navbar -->
+								<ul class="social-media-icons">
+									<a href='https://github.com/KMcWeeney22' alt='Kyle McWeeneys Github'><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+									<a href='https://twitter.com/KDMcween22' alt='Kyle McWeeneys Twitter'><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+									<a href='https://www.linkedin.com/in/kyle-mcweeney' alt='Kyle McWeeneys LinkedIn porfile'><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+								</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+		<!-- top content. jumbotron picture of me and short about descrition of what i do. -->
+		<section id="about" class="about-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-sm-push-4">
+						<h1>Front End Web Developer</h1>
+					</div>
+				</div>
+				<div class="row">
+						<div class="col-sm-8 col-md-8 col-lg-8">
+								<img src='images/yael-and-i.jpg' class="main-image img-circle img-responsive col-sm-8 col-md-8 col-lg-8" alt="Picture of Kyle and his girlfriend Yael">
+						</div>
+						<div class="about-info col-sm-4 col-lg-4">
+								<p>Hello! I’m Kyle McWeeney and I am from Seattle Washington. I specialize in creating simple, usable and responsive websites and web applications and loving it! I am Currently Seeking an entry-level Front End Web Developemnt position.</p>
+						</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills Section -->
+		<section id="skills" class="skills-section">
+			<div class="container">
+				<h1>Skills</div>
+				<div class="row">
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+								<img src="images/HTML5.png">
+								<p id="skills-list">HTML5, CSS3 and a little knowledge of working with SASS.</p>
+						</div>
+
+						<div id="js-skills" class="col-xs-12 col-sm-6 col-lg-3">
+								<img id="js-logo" src="images/js-logo.png">
+								<p id="skills-list">Becoming well-versed in JavaScript, Jquery and AngularJS. With some knowledge of working with NodeJS</p>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<img id="terminal-image" src="images/Terminal.png">
+							<p id="skills-list">Using Yoeman, Bower and Grunt to build single page applications. Proficient in using Git</p>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<img id="bootstrap-logo" src="images/bootstrap.png">
+							<p id="skills-list">Creating responsive websites with Bootstrap.
+				</div>
+			</div>
+		</section>
+
+		<!-- portfolio Section -->
+		<section id="portfolio" class="portfolio-section">
+			<div class="container">
+				<h1>Portfolio</h1>
+				<div id="main-project" class="row">
+						<div class="col-sm-8 col-lg-7">
+								<a href="http://kylemcweeney.com/WeatherApp/#/"><img src="images/weather-app-preview.png" class="img-responsive focus-project" alt="site-preview"></a>
+						</div>
+						<div id='project-info' class='col-sm-4 col-lg-3 col-lg-push-1'>
+								<h2>Weather App</h2>
+								<p><strong>Built with</strong>: NodeJS / AngularJS / Yoeman / Grunt / SASS </p>
+								<p>A simple application where a user can look up the weather in their current location or any location they search for. Users can see the current day as well as seeing the forecast for the entire week. </p>
+								<a href="https://github.com/KMcWeeney22/WeatherApp" class="myButton">View Project</a>
+						</div>
+				</div>
+
+				<div id="sub-projects" class="row">
+						<div id="walkingdead-project" class="col-sm-6 col-lg-4">
+							<h3>The Walking Dead Show Page</h3>
+							<a href="http://kylemcweeney.com/tv-show-product-page/"><img src="images/walking-dead-site.png" class="img-responsive" alt="The walking dead site preview"></a>
+							<!-- <p>HTML, CSS, JavaScript, jquery</p> -->
+							<a href="https://github.com/KMcWeeney22/tv-show-product-page" class="sub-project-button">View Project</a>
+						</div>
+
+						<div id="flicr-search" class="col-sm-6 col-lg-4">
+							<h3>Flickr Search</h3>
+							<a href="http://kylemcweeney.com/wats1020-flickr-search/"><img src="images/FlickrSearchPreview.png" class="img-responsive" alt="Flick Search Website Preview"></a>
+							<a href="https://github.com/KMcWeeney22/wats1020-flickr-search" class="sub-project-button">View Project</a>
+						</div>
+
+						<div id="zen-garden" class="col-sm-6 col-lg-4">
+							<h3>CSS Zen Garden</h3>
+							<a href="http://kylemcweeney.com/wats1010-css-zen-garden/"><img src="images/css-zen-garden-preview.png"class="img-responsive" alt="CSS Zen Garden Preview Website Preview"></a>
+							<a href="https://github.com/KMcWeeney22/wats1010-css-zen-garden" class="sub-project-button">View Project</a>
+						</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="contact-section">
+			<div class="container">
+				<h1>Contact</h1>
+				<div class="row">
+					<div id="contact-social-media" class="col-sm-12 col-lg-5 col-lg-push-1">
+						<p><i class="fa fa-github fa-3x" aria-hidden="true"></i><a href='https://github.com/KMcWeeney22' alt='Kyle McWeeneys Github'>Github</a></p>
+						<p><i class="fa fa-twitter fa-3x" aria-hidden="true"></i><a href='https://twitter.com/KDMcween22' alt='Kyle McWeeneys Twitter'>Twitter</a></p>
+						<p><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i><a href='https://www.linkedin.com/in/kyle-mcweeney' alt='Kyle McWeeneys LinkedIn porfile'>LinkedIn</a></p>
+						<p><i class="fa fa-envelope fa-3x" aria-hidden="true"></i><a href='mailto:kyle.mcweeney22@gmail.com'>kyle.mcweeney22@gmail.com</a></p>
+					</div>
+
+					<div class="col-sm-12 col-md-6">
+						<div class="inner contact">
+                <!-- Form Area -->
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" method="post" action="contact.php">
+                        <!-- Left Inputs -->
+                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                            <!-- Email -->
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                            <!-- Subject -->
+                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                            <!-- Message -->
+                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                        </div><!-- End Right Inputs -->
+                        <!-- Bottom Submit -->
+                        <div class="relative fullwidth col-xs-12">
+                            <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
+                        </div><!-- End Bottom Submit -->
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                    </form>
+
+                    <!-- Your Mail Message -->
+                    <div class="mail-message-area">
+                        <!-- Message -->
+                        <div class="alert gray-bg mail-message not-visible-message">
+                            <strong>Thank You !</strong> Your email has been delivered.
+                        </div>
+                    </div>
+
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- JavaScript script links -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
 </body>
 </html>

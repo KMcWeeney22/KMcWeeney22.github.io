@@ -1,0 +1,48 @@
+@media(min-width: 767px) {
+.about-section {
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.about-section h1 {
+  text-align: center;
+}
+
+.about-section .row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.main-image {
+  float: none;
+  display: block;
+  margin: auto auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-info {
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  right: 100px;
+}
+
+} /* end min-media-width 767px */
+
+
+@media(max-width: 766px) {
+
+  .about-section h1 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .about-info {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+}
