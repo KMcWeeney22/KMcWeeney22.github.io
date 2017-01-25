@@ -200,7 +200,7 @@
                 <!-- Form Area -->
                 <div class="contact-form">
                     <!-- Form -->
-                    <form id="contact-us" method="post" action="contact.php">
+                    <form id="contact-us" name="myemailform" method="post" action="contact.php">
                         <!-- Left Inputs -->
                         <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
                             <!-- Name -->
@@ -240,6 +240,14 @@
 		</section>
 
 
+
+		<script language="JavaScript">
+		// Code for validating the form
+		var frmvalidator  = new Validator("myemailform");
+		frmvalidator.addValidation("name","req","Please provide your name");
+		frmvalidator.addValidation("email","req","Please provide your email");
+		frmvalidator.addValidation("email","email","Please enter a valid email address");
+		</script>
 		<!-- JavaScript script links -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
