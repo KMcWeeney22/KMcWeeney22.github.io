@@ -25,12 +25,18 @@
 #js-skills {
   top: -7px;
 }
-#skills-list{
+
+#skills-list {
   text-align: center;
   padding-top: 15px;
   color: white;
   font-size: 16px;
 }
+
+#skills-list strong {
+  color: black;
+}
+
 #js-logo {
   height: 140px;
   width: 140px;
